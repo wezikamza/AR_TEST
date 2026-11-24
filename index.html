@@ -162,11 +162,11 @@
 
     // 조명
     scene.add(
-      new THREE.HemisphereLight(0xffffff, 0x444444, 1.5)
+      new THREE.HemisphereLight(0xffffff, 0x444444, 5)
     ); 
     // 환경라이트, 수치가 밝기
     const directionalLight = new THREE.DirectionalLight(
-      0xffffff, 2
+      0xffffff, 15
     );
     
     directionalLight.position.set(1, 2, 3);
